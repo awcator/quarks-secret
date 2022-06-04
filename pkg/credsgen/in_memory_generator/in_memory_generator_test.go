@@ -35,8 +35,8 @@ var _ = Describe("InMemoryGenerator", func() {
 				Expect(defaultGenerator.(*inmemorygenerator.InMemoryGenerator).Algorithm).To(Equal("rsa"))
 			})
 
-			It("succeeds if the default generator certs expires in 365 days", func() {
-				Expect(defaultGenerator.(*inmemorygenerator.InMemoryGenerator).Expiry).To(Equal(365))
+			It("succeeds if the default generator certs expires in 1095 days", func() {
+				Expect(defaultGenerator.(*inmemorygenerator.InMemoryGenerator).Expiry).To(Equal(1095))
 			})
 		})
 	})
