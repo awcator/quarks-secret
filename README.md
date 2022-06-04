@@ -7,6 +7,9 @@
 
 ----
 
+Release Docker Image: 
+docker pull awcator/quarks-secret:v1.0.762
+
 A QuarksSecret allows the developers to deal with the management of credentials.
 
 - QuarksSecret can be used to generate passwords, certificates and keys
